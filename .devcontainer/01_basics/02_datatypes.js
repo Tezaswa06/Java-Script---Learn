@@ -14,12 +14,13 @@ let state; // this is undefined as the variable doesn't contains any value
 // we use bigint when we have a very large no
 // string = ""
 // boolean = true or false
-// null = standalone value
-// undefined = variables not defined
+// null = standalone value // object
+// undefined = variables not defined // it will remain undefined as it is a type in java script
+
 // symbol = uniqueness
 
 
 
 // object
 
-console.log(typeof "Tezaswa");
+console.log(typeof undefined);
